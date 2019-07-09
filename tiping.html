@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>タイピングゲーム</title>
+</head>
+
+<body>
+    出題回数: <span id='count'></span>
+    <p id='question-area'></p>
+    <!-- 回答エリア -->
+
+    <input type="text" id='answer' autofocus>
+    <button id='answer-button' onclick='comparison_answer(); count()'>回答する</button>
+    <p id="result-area"></p>
+    <p id="time-result-area"></p>
+    <p id="currect-percent-area"></p>
+    <script src="./js-grammar/tiping.js"></script>
+</body>
+
+</html>
